@@ -3,7 +3,6 @@
     "description": "Twitch chat client with 7tv support",
     "homepage": "https://chatterino.com",
     "license": "MIT",
-    "url": "https://github.com/SevenTV/chatterino7/releases/download/v7.3.5/Chatterino7.Portable.zip",
     "suggest": {
         "Microsoft Visual C++ Redistributable 2022": "extras/vcredist2022",
         "Microsoft Visual C++ Redistributable 2013": "extras/vcredist2013"
