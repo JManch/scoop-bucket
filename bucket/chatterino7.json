@@ -15,6 +15,7 @@
         }
     },
     "extract_dir": "Chatterino7.Portable/Chatterino2",
+    "pre_install": "Remove-Item \"$dir\\Chatterino7.Portable\" -Force",
     "shortcuts": [
         [
             "chatterino.exe",
