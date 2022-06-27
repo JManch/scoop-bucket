@@ -30,7 +30,7 @@
     ],
     "checkver": {
         "github": "https://github.com/SevenTV/chatterino7"
-    }
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
