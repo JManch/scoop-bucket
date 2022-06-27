@@ -17,15 +17,25 @@
             "hash": "87618af14aa3e471b9c495cc3e90a3cf76ed26770ecf891d51455abe67880353"
         }
     },
+    "post_install": [
+        "# Create config junction",
+        "if (Test-Path \"$env:LOCALAPPDATA\\RaceControl\") { Remove-Item \"$env:LOCALAPPDATA\\RaceControl\" -Force }",
+        "New-DirectoryJunction \"$env:LOCALAPPDATA\\RaceControl\" \"$persist_dir\\RaceControl\" | Out-Null",
+        "attrib \"$env:LOCALAPPDATA\\RaceControl\" +R /L"
+    ],
     "shortcuts": [
         [
             "RaceControl.exe",
             "RaceControl"
         ]
     ],
+    "persist": [
+        "RaceControl"
+    ],
     "uninstaller": {
-        "script": [
-            "Remove-Item \"$env:LOCALAPPDATA\\RaceControl\""
+        "script": [    
+            "attrib \"$env:LOCALAPPDATA\\RaceControl\" -R /L",
+            "if (Test-Path \"$env:LOCALAPPDATA\\RaceControl\") { Remove-Item \"$env:LOCALAPPDATA\\RaceControl\" }"
         ]
     },
     "checkver": {
