@@ -1,5 +1,4 @@
 param(
-    # overwrite upstream param
     [String]$upstream = "JManch/scoop-buckets:main"
 )
 
