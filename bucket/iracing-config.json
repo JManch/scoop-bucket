@@ -1,6 +1,6 @@
 {
     "version": "1.40",
-    "description": "iRacingConfig is a free iRacing desktop app that allows you to edit all iRacing INI files simultaneously using a simple interface to create a single profile that you can edit, copy and apply to iRacing at any time",
+    "description": "iRacingConfig is a free iRacing desktop app that allows you to edit all iRacing INI files simultaneously using a simple interface to create a single profile that you can edit, copy and apply to iRacing at any time.",
     "homepage": "https://bazwise.com/iracingconfig/",
     "license": "Freeware",
     "notes": "Requires Microsoft .NET 4.6",
