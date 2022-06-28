@@ -3,7 +3,6 @@
     "description": "Race Control is an open source F1TV desktop client for Windows.",
     "homepage": "https://github.com/robvdpol/RaceControl",
     "license": "GPL-3.0-only",
-    "url": "https://github.com/SevenTV/chatterino7/releases/download/v7.3.5/Chatterino7.Portable.zip",
     "suggest": {
         "dotnet": ["dotnet-sdk", "extras/windowsdesktop-runtime-lts"]
     },
